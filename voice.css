@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+
+}
+#demo{
+    width:100%;
+    height: 100vh;
+    background: linear-gradient(45deg,#010758,#490d61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+
+}
+
+#demo h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+
+}
+
+#demo h1 span{
+color: #d0e148;
+
+}
+
+textarea{
+    width:600px;
+height: 250px;
+background-color:paleturquoise;
+color:black;
+font-size: 19px;
+border:0;
+outline: 0;
+padding:20px;
+border-radius: 10px;
+resize: none;
+margin-bottom:30px;
+
+
+}
+
+textarea::placeholder{
+    font-size: 19px;
+    color: red;
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background:#1caace;
+    color: black;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border:0;
+    border-radius: 30px;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+button img{
+    height:29px;
+width: 30px;
+align-items: center;
+
+}
+
+select{
+flex: 1;
+color: black;
+background-color:paleturquoise;
+height: 50px;
+padding: 0 20px;
+outline: 0;
+border:0;
+border-radius: 30px;
+appearance: none;
+background-image: url("dr1.png");
+width: 50px;
+font-weight: 100%;
+height: 50px;
+background-repeat: no-repeat;
+background-size: 15px;
+background-position-x: calc(100% - 20px);
+background-position-y: 20px;
+}
+
